@@ -25,3 +25,17 @@ function passFail(){
         document.getElementById("resultTwo").innerHTML = "Gaza khawa bad diye diner pothe aso";
     }
 }
+
+
+// ============================== bank ==============================
+function sodhErMan(){
+    var taka = parseInt(document.getElementById("money").value);
+    var bochor = parseInt(document.getElementById("year").value);
+
+    var soodh = parseInt((5 * taka * bochor) / 100);
+
+    var mot = taka + soodh;
+
+    document.getElementById("sodh").innerHTML = "আপনি " + bochor + " বছর পর " + soodh + " টাকা সুধ সহ মোট " + mot +
+    " টাকা পাবেন";
+}

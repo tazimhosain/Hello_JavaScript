@@ -1,9 +1,21 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+h1{
+    text-align: center;
+}
+
+
 #result{
     background: #000;
     color: #fff;
     padding: 30px;
     font-weight: 600;
     font-family: arial black;
+    margin: 20px 0;
 }
 
 #resultTwo{
@@ -12,4 +24,29 @@
     padding: 30px;
     font-weight: 600;
     font-family: arial black;
+    margin: 20px 0;
+}
+
+button{
+    margin: 20px 0;
+}
+
+input{
+    width: 50%;
+}
+
+.bank{
+    background: #000;
+    color: #fff;
+    width: 400px;
+    height: 600px;
+    padding: 30px 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bank input{
+    margin: 30px 0;
 }
